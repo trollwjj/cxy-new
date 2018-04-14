@@ -43,6 +43,8 @@
         <httpclient.version>4.3.5</httpclient.version>
         <!-- GSON -->
         <gson.version>2.7</gson.version>
+        <!-- solrj -->
+        <solrj.version>4.10.4</solrj.version>
 
     </properties>
 
@@ -195,6 +197,11 @@
                 <groupId>com.google.code.gson</groupId>
                 <artifactId>gson</artifactId>
                 <version>${gson.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.solr</groupId>
+                <artifactId>solr-solrj</artifactId>
+                <version>${solrj.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

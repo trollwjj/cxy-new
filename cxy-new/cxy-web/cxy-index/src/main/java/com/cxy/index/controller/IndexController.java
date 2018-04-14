@@ -1,11 +1,16 @@
 package com.cxy.index.controller;
 
-import com.cxy.background.utils.HttpClientUtils;
+import com.cxy.common.utils.HttpClientUtils;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
-import org.springframework.web.bind.annotation.ValueConstants;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import java.io.IOException;
+import java.util.HashMap;
+import java.util.Map;
 
 @Controller
 public class IndexController {
@@ -16,5 +21,12 @@ public class IndexController {
         String string = HttpClientUtils.doGet("http://localhost:8080/productCategory/listByPid/" + pid);
         System.out.println(string);
         return  callback+"("+string+")";
+    }
+
+
+    @RequestMapping("search")
+    public String search(String searchString){
+
+        return "redirect:http://localhost:8082/search/search?searchString="+searchString;
     }
 }

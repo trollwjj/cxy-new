@@ -101,9 +101,9 @@
             </ul>
             <div class="clear"></div>
             <div class="search_form">
-                <form method="post" action="index.php">
+                <form method="post" action="search" id="search-form">
                     <div class="search_formstyle">
-                        <input type="text" class="search_form_text" name="search_content" value="搜索其实很简单！" />
+                        <input type="text" class="search_form_text" name="searchString" value="搜索其实很简单！" />
                         <input type="submit" class="search_form_sub" name="secrch_submit" value="" title="搜索" />
                     </div>
                 </form>

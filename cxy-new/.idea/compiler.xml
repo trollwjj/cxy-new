@@ -12,6 +12,7 @@
         <module name="cxy-index" />
         <module name="cxy-mapper" />
         <module name="cxy-other" />
+        <module name="cxy-search" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -23,6 +24,7 @@
       <module name="cxy-mapper" target="1.7" />
       <module name="cxy-other" target="1.5" />
       <module name="cxy-parent" target="1.5" />
+      <module name="cxy-search" target="1.7" />
       <module name="cxy-web" target="1.5" />
       <module name="cxybasic" target="1.5" />
     </bytecodeTargetLevel>

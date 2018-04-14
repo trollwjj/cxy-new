@@ -3,6 +3,7 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/cxy-web/cxy-background" />
     <file type="web" url="file://$PROJECT_DIR$/cxy-web/cxy-index" />
+    <file type="web" url="file://$PROJECT_DIR$/cxy-web/cxy-search" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">

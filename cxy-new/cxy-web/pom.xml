@@ -11,6 +11,7 @@
     <modules>
         <module>cxy-background</module>
         <module>cxy-index</module>
+        <module>cxy-search</module>
     </modules>
 
 

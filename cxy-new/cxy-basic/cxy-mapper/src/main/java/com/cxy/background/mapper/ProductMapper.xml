@@ -350,4 +350,8 @@
     where id = #{product.id,jdbcType=INTEGER}
   </update>
 
+  <select id="getTotalCount" resultType="int">
+    select count(1) FROM  product WHERE flag = 1
+  </select>
+
 </mapper>

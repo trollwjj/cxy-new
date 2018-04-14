@@ -91,4 +91,6 @@ public interface ProductMapper {
     ProductVo selectByProductId(Integer productId);
 
     int updateByProductVo(ProductVo productVo);
+
+    Integer getTotalCount();
 }

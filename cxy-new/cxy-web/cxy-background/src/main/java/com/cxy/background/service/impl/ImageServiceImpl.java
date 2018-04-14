@@ -1,7 +1,7 @@
 package com.cxy.background.service.impl;
 
 import com.cxy.background.service.ImageService;
-import com.cxy.background.utils.FastDFSUtils;
+import com.cxy.common.utils.FastDFSUtils;
 import org.csource.common.MyException;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;

@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/cxy-basic/cxy-mapper/cxy-mapper.iml" filepath="$PROJECT_DIR$/cxy-basic/cxy-mapper/cxy-mapper.iml" />
       <module fileurl="file://$PROJECT_DIR$/cxy-other/cxy-other.iml" filepath="$PROJECT_DIR$/cxy-other/cxy-other.iml" />
       <module fileurl="file://$PROJECT_DIR$/cxy-basic/cxy-parent/cxy-parent.iml" filepath="$PROJECT_DIR$/cxy-basic/cxy-parent/cxy-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cxy-web/cxy-search/cxy-search.iml" filepath="$PROJECT_DIR$/cxy-web/cxy-search/cxy-search.iml" />
       <module fileurl="file://$PROJECT_DIR$/cxy-web/cxy-web.iml" filepath="$PROJECT_DIR$/cxy-web/cxy-web.iml" />
     </modules>
   </component>
