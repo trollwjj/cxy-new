@@ -2,6 +2,7 @@ package com.cxy.index.controller;
 
 import com.cxy.common.utils.HttpClientUtils;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
@@ -9,6 +10,9 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.io.UnsupportedEncodingException;
+import java.net.URL;
+import java.net.URLEncoder;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -26,7 +30,15 @@ public class IndexController {
 
     @RequestMapping("search")
     public String search(String searchString){
-
-        return "redirect:http://localhost:8082/search/search?searchString="+searchString;
+//        String url=  "redirect:http://localhost:8082/search/search?pageIndex=1&searchString="+searchString;
+        try {
+            String encode = URLEncoder.encode(searchString, "utf-8");
+            String url=  "redirect:http://localhost:8082/search/search?searchString="+encode+"&pageIndex=1";
+            System.out.println(url);
+            return url;
+        } catch (UnsupportedEncodingException e) {
+            e.printStackTrace();
+        }
+        return null;
     }
 }

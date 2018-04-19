@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rabbit="http://www.springframework.org/schema/rabbit"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/rabbit http://www.springframework.org/schema/rabbit/spring-rabbit.xsd">
+
+    <rabbit:connection-factory id="connectionFactory" host="10.20.153.59" port="5672" username="troll" password="123" virtual-host="/troll"></rabbit:connection-factory>
+    <rabbit:admin connection-factory="connectionFactory"></rabbit:admin>
+    <rabbit:queue name="com_cxy_register_queue" auto-declare="true" durable="true"></rabbit:queue>
+    <rabbit:topic-exchange name="com_cxy_register_topic_exchange" auto-declare="true">
+        <rabbit:bindings>
+            <rabbit:binding pattern="user.register" queue="com_cxy_register_queue"></rabbit:binding>
+        </rabbit:bindings>
+    </rabbit:topic-exchange>
+
+    <bean id="emailHandler" class="com.cxy.email.handler.EmailHandler"></bean>
+    <rabbit:listener-container connection-factory="connectionFactory" acknowledge="manual">
+        <rabbit:listener ref="emailHandler" method="sendActivityEmail" queues="com_cxy_register_queue"></rabbit:listener>
+    </rabbit:listener-container>
+</beans>

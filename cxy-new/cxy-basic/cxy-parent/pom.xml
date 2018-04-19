@@ -45,6 +45,18 @@
         <gson.version>2.7</gson.version>
         <!-- solrj -->
         <solrj.version>4.10.4</solrj.version>
+        <!-- freemarker -->
+        <freemarker.version>2.3.23</freemarker.version>
+        <!-- spring-rabbitmq -->
+        <spring-rabbit.version>1.7.5.RELEASE</spring-rabbit.version>
+        <!-- spring security -->
+        <spring-security.version>4.2.3.RELEASE</spring-security.version>
+        <!-- mail -->
+        <java-mail.version>1.4</java-mail.version>
+        <!-- commons-codec -->
+        <commons-codec.version>1.9</commons-codec.version>
+        
+
 
     </properties>
 
@@ -84,6 +96,12 @@
             <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-web</artifactId>
+                <version>${spring.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-context-support</artifactId>
                 <version>${spring.version}</version>
             </dependency>
 
@@ -198,11 +216,44 @@
                 <artifactId>gson</artifactId>
                 <version>${gson.version}</version>
             </dependency>
+            <!-- solrj -->
             <dependency>
                 <groupId>org.apache.solr</groupId>
                 <artifactId>solr-solrj</artifactId>
                 <version>${solrj.version}</version>
             </dependency>
+            <!-- freemarker -->
+            <dependency>
+                <groupId>org.freemarker</groupId>
+                <artifactId>freemarker</artifactId>
+                <version>${freemarker.version}</version>
+            </dependency>
+            <!-- spring-rabbitmq -->
+            <dependency>
+                <groupId>org.springframework.amqp</groupId>
+                <artifactId>spring-rabbit</artifactId>
+                <version>${spring-rabbit.version}</version>
+            </dependency>
+            <!-- Spring-security -->
+            <dependency>
+                <groupId>org.springframework.security</groupId>
+                <artifactId>spring-security-core</artifactId>
+                <version>${spring-security.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>javax.mail</groupId>
+                <artifactId>mail</artifactId>
+                <version>${java-mail.version}</version>
+            </dependency>
+            
+            <!-- commons-codec -->
+            <dependency>
+                <groupId>commons-codec</groupId>
+                <artifactId>commons-codec</artifactId>
+                <version>${commons-codec.version}</version>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 

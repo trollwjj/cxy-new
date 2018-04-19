@@ -4,6 +4,7 @@ import com.cxy.background.entity.Product;
 import com.cxy.background.entity.ProductExample;
 import com.cxy.background.mapper.ProductMapper;
 import com.cxy.search.service.ISearcheService;
+import com.google.gson.Gson;
 import org.apache.solr.client.solrj.SolrQuery;
 import org.apache.solr.client.solrj.SolrServer;
 import org.apache.solr.client.solrj.SolrServerException;
@@ -62,16 +63,16 @@ public class SearchServiceImpl implements ISearcheService {
     @Override
     public List<Product> search(Integer pageIndex, String searchString) {
 
-        if (pageIndex== null){
+        if (pageIndex == null) {
             pageIndex = 1;
         }
 
         SolrQuery query = new SolrQuery();
-        if (searchString == null || searchString.isEmpty()){
+        if (searchString == null || searchString.isEmpty()) {
             query.setQuery("product_keywords:*");
 
-        }else {
-            query.setQuery("product_keywords:"+searchString);
+        } else {
+            query.setQuery("product_keywords:" + searchString);
             query.setHighlight(true);
             query.addHighlightField("product_name");
             query.addHighlightField("sale_point");
@@ -81,7 +82,7 @@ public class SearchServiceImpl implements ISearcheService {
 
         try {
             int pageSize = 2;
-            query.setStart((pageIndex-1)*pageSize);
+            query.setStart((pageIndex - 1) * pageSize);
             query.setRows(pageSize);
 
             QueryResponse response = solrServer.query(query);
@@ -93,27 +94,30 @@ public class SearchServiceImpl implements ISearcheService {
             for (SolrDocument result : results) {
                 Product product = new Product();
                 product.setId(Integer.parseInt(result.getFieldValue("id").toString()));
-                product.setImages(result.getFieldValue("images").toString());
+                Object imageObject = result.getFieldValue("images");
+                if (imageObject != null) {
+                    product.setImages(imageObject.toString());
+                }
                 product.setPrice(Integer.parseInt(result.getFieldValue("product_price").toString()));
 
-                if (highlighting!=null){
+                if (highlighting != null) {
                     List<String> nameHilight = highlighting.get(result.getFieldValue("id")).get("product_name");
-                    if (nameHilight !=null && !nameHilight.isEmpty()){
+                    if (nameHilight != null && !nameHilight.isEmpty()) {
                         product.setName(nameHilight.get(0));
-                    }else {
+                    } else {
                         product.setName(result.getFieldValue("product_name").toString());
                     }
 
                     List<String> salePointHilight = highlighting.get(result.getFieldValue("id")).get("sale_point");
-                    if (salePointHilight != null && !salePointHilight.isEmpty()){
+                    if (salePointHilight != null && !salePointHilight.isEmpty()) {
                         product.setSalePoint(salePointHilight.get(0));
-                    }else{
+                    } else {
                         product.setSalePoint(result.getFieldValue("sale_point").toString());
 
                     }
-                }else {
-                        product.setSalePoint(result.getFieldValue("sale_point").toString());
-                        product.setName(result.getFieldValue("product_name").toString());
+                } else {
+                    product.setSalePoint(result.getFieldValue("sale_point").toString());
+                    product.setName(result.getFieldValue("product_name").toString());
 
                 }
                 productList.add(product);
@@ -131,11 +135,11 @@ public class SearchServiceImpl implements ISearcheService {
     public Integer getTotalCount(String searchString) {
 
         SolrQuery query = new SolrQuery();
-        if (searchString == null || searchString.isEmpty()){
+        if (searchString == null || searchString.isEmpty()) {
             query.setQuery("product_keywords:*");
 
-        }else {
-            query.setQuery("product_keywords:"+searchString);
+        } else {
+            query.setQuery("product_keywords:" + searchString);
         }
 
         try {
@@ -145,6 +149,48 @@ public class SearchServiceImpl implements ISearcheService {
             e.printStackTrace();
         }
 
-        return  0;
+        return 0;
+    }
+
+    @Override
+    public void updateByJson(String json) {
+
+        Gson gson = new Gson();
+        Product product = gson.fromJson(json, Product.class);
+
+        SolrInputDocument solrDocument = new SolrInputDocument();
+        solrDocument.setField("product_name", product.getName());
+        solrDocument.setField("product_price", product.getPrice());
+        solrDocument.setField("sale_point", product.getSalePoint());
+        solrDocument.setField("id", product.getId());
+        solrDocument.setField("images", product.getImages());
+        try {
+            solrServer.add(solrDocument);
+        } catch (SolrServerException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        try {
+            solrServer.commit();
+            System.out.println("添加成功");
+        } catch (SolrServerException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    @Override
+    public void deleteById(Integer id) {
+        try {
+            solrServer.deleteById(id.toString());
+            solrServer.commit();
+        } catch (SolrServerException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }

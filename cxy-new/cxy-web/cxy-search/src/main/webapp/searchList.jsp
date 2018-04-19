@@ -115,7 +115,7 @@
             <div class="search_form">
                 <form method="post" action="/search/search">
                     <div class="search_formstyle">
-                        <input type="text" class="search_form_text" name="search_content" value="${searchString}" />
+                        <input type="text" class="search_form_text" name="searchString" value="${searchString}" />
                         <input type="submit" class="search_form_sub" name="secrch_submit" value="" title="搜索" />
                     </div>
                 </form>
@@ -718,7 +718,10 @@
                             <dd class="title"><a href="">${product.name}</a></dd>
                             <dd class="content">
                                 <span class="goods_jiage">￥<strong>${product.price}</strong></span>
-                                <span class="goods_chengjiao">${product.salePoint}</span>
+                                <span class="goods_chengjiao">本月已售出999笔</span>
+                            </dd>
+                            <dd class="content">
+                                <span class="goods_jiage">${product.salePoint}</span>
                             </dd>
                         </dl>
                     </li>

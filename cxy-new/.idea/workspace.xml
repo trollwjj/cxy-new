@@ -14,6 +14,12 @@
     <ignored path="$PROJECT_DIR$/cxy-web/cxy-background/target/" />
     <ignored path="$PROJECT_DIR$/cxy-web/cxy-index/target/" />
     <ignored path="$PROJECT_DIR$/cxy-web/cxy-search/target/" />
+    <ignored path="$PROJECT_DIR$/cxy-other/cxy-freemarker/target/" />
+    <ignored path="$PROJECT_DIR$/cxy-web/cxy-item/target/" />
+    <ignored path="$PROJECT_DIR$/cxy-web/cxy-eamil/target/" />
+    <ignored path="$PROJECT_DIR$/cxy-web/css-sso/target/" />
+    <ignored path="$PROJECT_DIR$/cxy-web/cxy-register/target/" />
+    <ignored path="$PROJECT_DIR$/cxy-basic/cxy-sms/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,11 +29,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SearchController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cxy-web/cxy-search/src/main/java/com/cxy/search/controller/SearchController.java">
+      <file leaf-file-name="EmailHandler.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cxy-web/cxy-eamil/src/main/java/com/cxy/email/handler/EmailHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+            <state relative-caret-position="413">
+              <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -35,11 +41,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ISearcheService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cxy-web/cxy-search/src/main/java/com/cxy/search/service/ISearcheService.java">
+      <file leaf-file-name="applicationContext-email.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cxy-web/cxy-eamil/src/main/resources/spring/applicationContext-email.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+            <state relative-caret-position="308">
+              <caret line="14" column="34" lean-forward="false" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="applicationContext-rabbitmq.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cxy-web/cxy-eamil/src/main/resources/spring/applicationContext-rabbitmq.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="15" column="89" lean-forward="false" selection-start-line="15" selection-start-column="89" selection-end-line="15" selection-end-column="89" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RegisterController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cxy-web/cxy-register/src/main/java/com/cxy/register/controller/RegisterController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="809">
+              <caret line="87" column="9" lean-forward="true" selection-start-line="87" selection-start-column="9" selection-end-line="87" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -47,11 +73,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SearchServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cxy-web/cxy-search/src/main/java/com/cxy/search/service/impl/SearchServiceImpl.java">
+      <file leaf-file-name="IRegisterService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cxy-web/cxy-register/src/main/java/com/cxy/register/service/IRegisterService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="107" column="29" lean-forward="false" selection-start-line="107" selection-start-column="29" selection-end-line="107" selection-end-column="29" />
+            <state relative-caret-position="110">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RegisterServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cxy-web/cxy-register/src/main/java/com/cxy/register/service/impl/RegisterServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -59,108 +95,54 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cxy-web/cxy-index/src/main/webapp/index.jsp">
+      <file leaf-file-name="UserMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cxy-basic/cxy-mapper/src/main/java/com/cxy/background/mapper/UserMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="38" column="25" lean-forward="true" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QueryResponse.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/solr/solr-solrj/4.10.4/solr-solrj-4.10.4.jar!/org/apache/solr/client/solrj/response/QueryResponse.class">
+      <file leaf-file-name="UserMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cxy-basic/cxy-mapper/src/main/java/com/cxy/background/mapper/UserMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="25" column="45" lean-forward="true" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProductMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cxy-basic/cxy-mapper/src/main/java/com/cxy/background/mapper/ProductMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="94" column="25" lean-forward="false" selection-start-line="94" selection-start-column="25" selection-end-line="94" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProductMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cxy-basic/cxy-mapper/src/main/java/com/cxy/background/mapper/ProductMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="347" column="11" lean-forward="true" selection-start-line="347" selection-start-column="11" selection-end-line="347" selection-end-column="11" />
+            <state relative-caret-position="396">
+              <caret line="168" column="34" lean-forward="true" selection-start-line="168" selection-start-column="34" selection-end-line="168" selection-end-column="34" />
               <folding>
-                <marker date="1523677396826" expanded="true" signature="4804:4907" ph="select from product" />
-                <marker date="1523677396826" expanded="true" signature="5124:5181" ph="delete from " />
-                <marker date="1523677396826" expanded="true" signature="5418:5437" ph="delete from " />
-                <marker date="1523677396826" expanded="true" signature="5751:6106" ph="insert into product... " />
-                <marker date="1523677396826" expanded="true" signature="9101:9523" ph="update produ... " />
-                <marker date="1523677396826" expanded="true" signature="9868:10602" ph="update produ... " />
-                <marker date="1523677396826" expanded="true" signature="10835:11204" ph="update produ... " />
-                <marker date="1523677396826" expanded="true" signature="11286:11477" ph="SELECT p.*, product" />
-                <marker date="1523677396826" expanded="true" signature="11582:12357" ph="update produ... " />
-                <marker date="1523677396826" expanded="true" signature="12422:12466" ph="select count... product" />
+                <marker date="1524139108530" expanded="true" signature="5006:5106" ph="select from user" />
+                <marker date="1524139108530" expanded="true" signature="5322:5376" ph="delete from " />
+                <marker date="1524139108530" expanded="true" signature="5609:5625" ph="delete from " />
+                <marker date="1524139108530" expanded="true" signature="5934:6551" ph="insert into user... " />
+                <marker date="1524139108530" expanded="true" signature="8918:8943" ph="select count... user" />
+                <marker date="1524139108530" expanded="true" signature="11017:11743" ph="update user " />
+                <marker date="1524139108530" expanded="true" signature="12083:13334" ph="update user " />
+                <marker date="1524139108530" expanded="true" signature="13563:14201" ph="update user " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="searchList.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cxy-web/cxy-search/src/main/webapp/searchList.jsp">
+      <file leaf-file-name="UserExample.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cxy-basic/cxy-entity/src/main/java/com/cxy/background/entity/UserExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="121" column="18" lean-forward="true" selection-start-line="121" selection-start-column="18" selection-end-line="121" selection-end-column="18" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PageInfo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cxy-web/cxy-search/src/main/java/com/cxy/search/pojo/PageInfo.java">
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cxy-basic/cxy-entity/src/main/java/com/cxy/background/entity/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="9" column="24" lean-forward="false" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+            <state relative-caret-position="299">
+              <caret line="254" column="15" lean-forward="false" selection-start-line="254" selection-start-column="15" selection-end-line="254" selection-end-column="15" />
               <folding>
-                <element signature="e#384#385#0" expanded="true" />
-                <element signature="e#414#415#0" expanded="true" />
-                <element signature="e#456#457#0" expanded="true" />
-                <element signature="e#494#495#0" expanded="true" />
-                <element signature="e#525#526#0" expanded="true" />
-                <element signature="e#556#557#0" expanded="true" />
-                <element signature="e#600#601#0" expanded="true" />
-                <element signature="e#640#641#0" expanded="true" />
-                <element signature="e#669#670#0" expanded="true" />
-                <element signature="e#697#698#0" expanded="true" />
-                <element signature="e#913#914#0" expanded="true" />
-                <element signature="e#941#942#0" expanded="true" />
-                <element signature="e#979#980#0" expanded="true" />
-                <element signature="e#1013#1014#0" expanded="true" />
-                <element signature="e#1044#1045#0" expanded="true" />
-                <element signature="e#1071#1072#0" expanded="true" />
-                <element signature="e#1111#1112#0" expanded="true" />
-                <element signature="e#1143#1144#0" expanded="true" />
-                <element signature="e#1179#1180#0" expanded="true" />
-                <element signature="e#1215#1216#0" expanded="true" />
-                <element signature="e#1414#1415#0" expanded="true" />
-                <element signature="e#1453#1454#0" expanded="true" />
-                <element signature="e#1515#1516#0" expanded="true" />
-                <element signature="e#1571#1572#0" expanded="true" />
+                <element signature="e#6181#6182#0" expanded="true" />
+                <element signature="e#6217#6218#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="applicationContext-service.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cxy-web/cxy-search/src/main/resources/spring/applicationContext-service.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="64" lean-forward="false" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="64" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -170,10 +152,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
-        <option value="spring-beans.schema" />
+        <option value="HTML File" />
         <option value="Jsp File" />
+        <option value="Interface" />
         <option value="Class" />
+        <option value="spring-beans.schema" />
       </list>
     </option>
   </component>
@@ -181,8 +164,24 @@
     <findStrings>
       <find>jstl</find>
       <find>slf4j</find>
-      <find>shop_bd_list_content clearfix</find>
+      <find>所有</find>
       <find>搜索</find>
+      <find>shop_bd_list_content clearfix</find>
+      <find>result1</find>
+      <find>spec-n1</find>
+      <find>京东</find>
+      <find>script</find>
+      <find>js/shop_goods_tab.js</find>
+      <find>images</find>
+      <find>goods_sub</find>
+      <find>购物车</find>
+      <find>goods_sub goods_sub_gou</find>
+      <find>alert</find>
+      <find>a</find>
+      <find>inser</find>
+      <find>yanzhenma</find>
+      <find>gson</find>
+      <find>rabbitConnectionFactory</find>
     </findStrings>
   </component>
   <component name="GradleLocalSettings">
@@ -193,57 +192,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/cxy-basic/cxy-common/src/main/java/utils/FastDFSUtils.java" />
-        <option value="$PROJECT_DIR$/cxy-web/cxy-background/src/main/java/com/cxy/background/service/ImageService.java" />
-        <option value="$PROJECT_DIR$/cxy-basic/cxy-common/src/test/java/com/cxy/background/utils/FastDFSUtils.java" />
-        <option value="$PROJECT_DIR$/cxy-basic/cxy-common/src/main/java/com/cxy/background/utils/FastDFSUtils.java" />
-        <option value="$PROJECT_DIR$/cxy-web/cxy-background/src/main/java/com/cxy/background/service/impl/ImageServiceImpl.java" />
-        <option value="$PROJECT_DIR$/cxy-web/cxy-background/src/main/java/com/cxy/background/controller/ImageController.java" />
-        <option value="$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.3.8.RELEASE/spring-aop-4.3.8.RELEASE.jar!/org/springframework/aop/framework/JdkDynamicAopProxy.class" />
-        <option value="$PROJECT_DIR$/cxy-web/cxy-background/src/main/java/com/cxy/background/service/IProductDescService.java" />
-        <option value="$PROJECT_DIR$/cxy-web/cxy-background/src/main/java/com/cxy/background/service/impl/ProductDescServiceImpl.java" />
-        <option value="$PROJECT_DIR$/cxy-web/cxy-background/src/main/webapp/upload.jsp" />
-        <option value="$PROJECT_DIR$/cxy-web/cxy-background/src/main/java/Vo/ProductVo.java" />
-        <option value="$PROJECT_DIR$/cxy-web/cxy-background/src/main/java/com/cxy/background/controller/ProductCategoryController.java" />
-        <option value="$PROJECT_DIR$/cxy-web/cxy-background/src/main/java/com/cxy/background/service/IProductCategoryService.java" />
-        <option value="$PROJECT_DIR$/cxy-web/cxy-background/src/main/java/com/cxy/background/service/impl/ProductCategoryServiceImpl.java" />
-        <option value="$PROJECT_DIR$/cxy-web/cxy-background/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/cxy-web/cxy-item/src/main/webapp/product/60.html" />
+        <option value="$PROJECT_DIR$/cxy-web/cxy-item/src/main/resources/spring/springmvc.xml" />
         <option value="$PROJECT_DIR$/cxy-web/cxy-background/src/main/webapp/addProduct.jsp" />
-        <option value="$PROJECT_DIR$/cxy-web/cxy-background/src/main/java/com/cxy/background/vo/ProductVo.java" />
-        <option value="$PROJECT_DIR$/cxy-basic/cxy-entity/src/main/java/com/cxy/background/entity/ProductVo.java" />
-        <option value="$PROJECT_DIR$/cxy-basic/cxy-mapper/src/main/java/com/cxy/background/mapper/ProductDescMapper.java" />
-        <option value="$PROJECT_DIR$/cxy-basic/cxy-mapper/src/main/java/com/cxy/background/mapper/ProductDescMapper.xml" />
-        <option value="$PROJECT_DIR$/cxy-web/cxy-background/src/main/webapp/updateProduct.jsp" />
-        <option value="$PROJECT_DIR$/cxy-web/cxy-background/src/main/java/com/cxy/background/service/IProductService.java" />
-        <option value="$PROJECT_DIR$/cxy-web/cxy-background/pom.xml" />
         <option value="$PROJECT_DIR$/cxy-web/cxy-background/src/main/java/com/cxy/background/controller/ProductController.java" />
-        <option value="$PROJECT_DIR$/cxy-web/cxy-background/src/main/java/com/cxy/background/service/impl/ProductServiceImpl.java" />
-        <option value="$PROJECT_DIR$/cxy-web/cxy-background/src/main/webapp/productList.jsp" />
-        <option value="$PROJECT_DIR$/cxy-web/cxy-index/src/main/webapp/js/index.js" />
-        <option value="$PROJECT_DIR$/cxy-web/cxy-index/src/main/webapp/test.jsp" />
-        <option value="$PROJECT_DIR$/cxy-web/cxy-index/src/main/webapp/test1.jsp" />
-        <option value="$PROJECT_DIR$/cxy-web/cxy-index/src/main/resources/spring/springmvc.xml" />
-        <option value="$PROJECT_DIR$/cxy-web/cxy-background/src/main/webapp/index.jsp" />
-        <option value="$PROJECT_DIR$/cxy-web/cxy-background/src/main/resources/mybatis/sqlMapConfig.xml" />
-        <option value="$PROJECT_DIR$/cxy-web/cxy-search/src/main/resources/spring/applicationContext-service.xml" />
-        <option value="$PROJECT_DIR$/cxy-web/cxy-search/src/main/resources/spring/applicationContext-tx.xml" />
-        <option value="$PROJECT_DIR$/cxy-web/cxy-search/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/cxy-basic/cxy-parent/pom.xml" />
-        <option value="$PROJECT_DIR$/cxy-web/cxy-search/src/test/java/SorljTest.java" />
-        <option value="$PROJECT_DIR$/cxy-basic/cxy-common/src/main/java/com/cxy/common/pojo/State.java" />
         <option value="$PROJECT_DIR$/cxy-web/cxy-search/pom.xml" />
-        <option value="$PROJECT_DIR$/cxy-web/cxy-search/src/main/resources/spring/applicationContext-solr.xml" />
-        <option value="$PROJECT_DIR$/cxy-web/cxy-index/src/main/webapp/index.jsp" />
-        <option value="$PROJECT_DIR$/cxy-basic/cxy-common/src/main/java/com/cxy/common/utils/HttpClientUtils.java" />
-        <option value="$PROJECT_DIR$/cxy-web/cxy-index/src/main/java/com/cxy/index/controller/IndexController.java" />
-        <option value="$PROJECT_DIR$/cxy-web/cxy-search/src/main/resources/spring/springmvc.xml" />
-        <option value="$PROJECT_DIR$/cxy-web/cxy-search/src/main/java/com/cxy/search/service/ISearcheService.java" />
-        <option value="$PROJECT_DIR$/cxy-basic/cxy-mapper/src/main/java/com/cxy/background/mapper/ProductMapper.java" />
-        <option value="$PROJECT_DIR$/cxy-web/cxy-search/src/main/java/com/cxy/search/pojo/PageInfo.java" />
-        <option value="$PROJECT_DIR$/cxy-basic/cxy-mapper/src/main/java/com/cxy/background/mapper/ProductMapper.xml" />
+        <option value="$PROJECT_DIR$/cxy-web/cxy-item/src/main/java/com/cxy/item/handler/ProductHandler.java" />
+        <option value="$PROJECT_DIR$/cxy-web/cxy-search/src/main/resources/spring/applicationContext-rabbitmq.xml" />
+        <option value="$PROJECT_DIR$/cxy-web/cxy-item/src/main/resources/spring/applicationContext-rabbitmq.xml" />
+        <option value="$PROJECT_DIR$/cxy-web/cxy-background/src/main/resources/spring/applicationContext-rabbitmq.xml" />
+        <option value="$PROJECT_DIR$/cxy-web/cxy-item/src/main/webapp/WEB-INF/ftl/product_detail.html" />
+        <option value="$PROJECT_DIR$/cxy-web/cxy-item/src/main/webapp/product/59.html" />
+        <option value="$PROJECT_DIR$/cxy-web/cxy-item/src/main/webapp/product/63.html" />
         <option value="$PROJECT_DIR$/cxy-web/cxy-search/src/main/java/com/cxy/search/controller/SearchController.java" />
+        <option value="$PROJECT_DIR$/cxy-web/cxy-item/src/main/java/com/cxy/item/service/impl/ItemServiceImpl.java" />
+        <option value="$PROJECT_DIR$/cxy-web/cxy-search/src/main/java/com/cxy/search/service/ISearcheService.java" />
         <option value="$PROJECT_DIR$/cxy-web/cxy-search/src/main/java/com/cxy/search/service/impl/SearchServiceImpl.java" />
-        <option value="$PROJECT_DIR$/cxy-web/cxy-search/src/main/webapp/searchList.jsp" />
+        <option value="$PROJECT_DIR$/cxy-web/cxy-search/src/main/java/com/cxy/search/handler/ProductHandler.java" />
+        <option value="$PROJECT_DIR$/cxy-web/cxy-background/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/cxy-web/cxy-background/pom.xml" />
+        <option value="$PROJECT_DIR$/cxy-web/cxy-register/src/main/resources/mybatis/sqlMapConfig.xml" />
+        <option value="$PROJECT_DIR$/cxy-web/cxy-register/src/main/resources/spring/applicationContext-service.xml" />
+        <option value="$PROJECT_DIR$/cxy-web/cxy-register/src/main/resources/spring/applicationContext-tx.xml" />
+        <option value="$PROJECT_DIR$/cxy-web/cxy-register/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/cxy-basic/cxy-common/pom.xml" />
+        <option value="$PROJECT_DIR$/cxy-basic/cxy-common/src/main/java/com/cxy/common/utils/EncodeUtils.java" />
+        <option value="$PROJECT_DIR$/cxy-basic/cxy-common/src/main/java/com/cxy/common/utils/SMSUtils.java" />
+        <option value="$PROJECT_DIR$/cxy-web/cxy-eamil/src/main/java/com/cxy/email/service/impl/EmailServiceImpl.java" />
+        <option value="$PROJECT_DIR$/cxy-web/cxy-eamil/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/cxy-basic/cxy-sms/src/main/java/com/cxy/sms/Config.java" />
+        <option value="$PROJECT_DIR$/cxy-basic/cxy-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/cxy-web/cxy-register/pom.xml" />
+        <option value="$PROJECT_DIR$/cxy-web/cxy-register/src/main/resources/spring/applicationContext-dao.xml" />
+        <option value="$PROJECT_DIR$/cxy-web/cxy-register/src/main/resources/spring/springmvc.xml" />
+        <option value="$PROJECT_DIR$/cxy-basic/cxy-sms/pom.xml" />
+        <option value="$PROJECT_DIR$/cxy-basic/cxy-sms/src/main/java/com/cxy/sms/SMSUtils.java" />
+        <option value="$PROJECT_DIR$/cxy-basic/cxy-sms/src/main/java/com/cxy/sms/response/SMSResonse.java" />
+        <option value="$PROJECT_DIR$/cxy-web/cxy-register/src/main/webapp/register.jsp" />
+        <option value="$PROJECT_DIR$/cxy-web/cxy-register/src/main/resources/spring/applicationContext-rabbitmq.xml" />
+        <option value="$PROJECT_DIR$/cxy-web/cxy-eamil/src/main/java/com/cxy/email/controller/EmailController.java" />
+        <option value="$PROJECT_DIR$/cxy-web/cxy-eamil/target/classes/spring/applicationContext-rabbitmq.xml" />
+        <option value="$PROJECT_DIR$/cxy-web/cxy-eamil/src/main/resources/spring/applicationContext-email.xml" />
+        <option value="$PROJECT_DIR$/cxy-web/cxy-eamil/src/main/resources/spring/springmvc.xml" />
+        <option value="$PROJECT_DIR$/cxy-web/cxy-item/pom.xml" />
+        <option value="$PROJECT_DIR$/cxy-web/cxy-eamil/pom.xml" />
+        <option value="$PROJECT_DIR$/cxy-web/css-sso/pom.xml" />
+        <option value="$PROJECT_DIR$/cxy-web/cxy-register/src/main/java/com/cxy/register/service/IRegisterService.java" />
+        <option value="$PROJECT_DIR$/cxy-web/cxy-register/src/main/java/com/cxy/register/controller/RegisterController.java" />
+        <option value="$PROJECT_DIR$/cxy-web/cxy-eamil/src/main/resources/spring/applicationContext-rabbitmq.xml" />
+        <option value="$PROJECT_DIR$/cxy-web/cxy-register/src/main/java/com/cxy/register/service/impl/RegisterServiceImpl.java" />
+        <option value="$PROJECT_DIR$/cxy-basic/cxy-mapper/src/main/java/com/cxy/background/mapper/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/cxy-web/cxy-eamil/src/main/java/com/cxy/email/handler/EmailHandler.java" />
       </list>
     </option>
   </component>
@@ -294,15 +293,51 @@
           <item name="cxy-common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="cxy-entity" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="cxy-entity" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="cxy-item Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="cxy-item Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="cxy-mapper" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="cxy-mapper" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="cxy-sms" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="cxy-sms" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
       </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1296" />
-    <option name="height" value="1000" />
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1260" />
+    <option name="height" value="944" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -348,58 +383,13 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="cxy-new" type="b2602c69:ProjectViewProjectNode" />
               <item name="cxy-basic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cxy-new" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cxy-basic" type="462c0819:PsiDirectoryNode" />
-              <item name="cxy-common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cxy-new" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cxy-basic" type="462c0819:PsiDirectoryNode" />
-              <item name="cxy-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cxy-new" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cxy-basic" type="462c0819:PsiDirectoryNode" />
-              <item name="cxy-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cxy-new" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cxy-basic" type="462c0819:PsiDirectoryNode" />
-              <item name="cxy-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cxy-new" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cxy-basic" type="462c0819:PsiDirectoryNode" />
-              <item name="cxy-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cxy-new" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cxy-basic" type="462c0819:PsiDirectoryNode" />
-              <item name="cxy-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cxy-new" type="b2602c69:ProjectViewProjectNode" />
@@ -478,30 +468,111 @@
             </path>
             <path>
               <item name="cxy-new" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cxy-basic" type="462c0819:PsiDirectoryNode" />
+              <item name="cxy-sms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cxy-new" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cxy-basic" type="462c0819:PsiDirectoryNode" />
+              <item name="cxy-sms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cxy-new" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cxy-basic" type="462c0819:PsiDirectoryNode" />
+              <item name="cxy-sms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cxy-new" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cxy-basic" type="462c0819:PsiDirectoryNode" />
+              <item name="cxy-sms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cxy-new" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cxy-basic" type="462c0819:PsiDirectoryNode" />
+              <item name="cxy-sms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cxy-new" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cxy-basic" type="462c0819:PsiDirectoryNode" />
+              <item name="cxy-sms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="response" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cxy-new" type="b2602c69:ProjectViewProjectNode" />
               <item name="cxy-web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cxy-new" type="b2602c69:ProjectViewProjectNode" />
               <item name="cxy-web" type="462c0819:PsiDirectoryNode" />
-              <item name="cxy-background" type="462c0819:PsiDirectoryNode" />
+              <item name="css-sso" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cxy-new" type="b2602c69:ProjectViewProjectNode" />
               <item name="cxy-web" type="462c0819:PsiDirectoryNode" />
-              <item name="cxy-background" type="462c0819:PsiDirectoryNode" />
+              <item name="css-sso" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cxy-new" type="b2602c69:ProjectViewProjectNode" />
               <item name="cxy-web" type="462c0819:PsiDirectoryNode" />
-              <item name="cxy-background" type="462c0819:PsiDirectoryNode" />
+              <item name="css-sso" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cxy-new" type="b2602c69:ProjectViewProjectNode" />
               <item name="cxy-web" type="462c0819:PsiDirectoryNode" />
+              <item name="css-sso" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cxy-new" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cxy-web" type="462c0819:PsiDirectoryNode" />
               <item name="cxy-background" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cxy-new" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cxy-web" type="462c0819:PsiDirectoryNode" />
+              <item name="cxy-background" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cxy-new" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cxy-web" type="462c0819:PsiDirectoryNode" />
+              <item name="cxy-eamil" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cxy-new" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cxy-web" type="462c0819:PsiDirectoryNode" />
+              <item name="cxy-eamil" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cxy-new" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cxy-web" type="462c0819:PsiDirectoryNode" />
+              <item name="cxy-eamil" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cxy-new" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cxy-web" type="462c0819:PsiDirectoryNode" />
+              <item name="cxy-eamil" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -509,16 +580,16 @@
             <path>
               <item name="cxy-new" type="b2602c69:ProjectViewProjectNode" />
               <item name="cxy-web" type="462c0819:PsiDirectoryNode" />
-              <item name="cxy-background" type="462c0819:PsiDirectoryNode" />
+              <item name="cxy-eamil" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="handler" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cxy-new" type="b2602c69:ProjectViewProjectNode" />
               <item name="cxy-web" type="462c0819:PsiDirectoryNode" />
-              <item name="cxy-background" type="462c0819:PsiDirectoryNode" />
+              <item name="cxy-eamil" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -526,16 +597,7 @@
             <path>
               <item name="cxy-new" type="b2602c69:ProjectViewProjectNode" />
               <item name="cxy-web" type="462c0819:PsiDirectoryNode" />
-              <item name="cxy-background" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cxy-new" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cxy-web" type="462c0819:PsiDirectoryNode" />
-              <item name="cxy-background" type="462c0819:PsiDirectoryNode" />
+              <item name="cxy-eamil" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -544,42 +606,25 @@
             <path>
               <item name="cxy-new" type="b2602c69:ProjectViewProjectNode" />
               <item name="cxy-web" type="462c0819:PsiDirectoryNode" />
-              <item name="cxy-background" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="cxy-register" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cxy-new" type="b2602c69:ProjectViewProjectNode" />
               <item name="cxy-web" type="462c0819:PsiDirectoryNode" />
-              <item name="cxy-background" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cxy-new" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cxy-web" type="462c0819:PsiDirectoryNode" />
-              <item name="cxy-index" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cxy-new" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cxy-web" type="462c0819:PsiDirectoryNode" />
-              <item name="cxy-index" type="462c0819:PsiDirectoryNode" />
+              <item name="cxy-register" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cxy-new" type="b2602c69:ProjectViewProjectNode" />
               <item name="cxy-web" type="462c0819:PsiDirectoryNode" />
-              <item name="cxy-index" type="462c0819:PsiDirectoryNode" />
+              <item name="cxy-register" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cxy-new" type="b2602c69:ProjectViewProjectNode" />
               <item name="cxy-web" type="462c0819:PsiDirectoryNode" />
-              <item name="cxy-index" type="462c0819:PsiDirectoryNode" />
+              <item name="cxy-register" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -587,7 +632,7 @@
             <path>
               <item name="cxy-new" type="b2602c69:ProjectViewProjectNode" />
               <item name="cxy-web" type="462c0819:PsiDirectoryNode" />
-              <item name="cxy-index" type="462c0819:PsiDirectoryNode" />
+              <item name="cxy-register" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -596,158 +641,43 @@
             <path>
               <item name="cxy-new" type="b2602c69:ProjectViewProjectNode" />
               <item name="cxy-web" type="462c0819:PsiDirectoryNode" />
-              <item name="cxy-index" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cxy-new" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cxy-web" type="462c0819:PsiDirectoryNode" />
-              <item name="cxy-index" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cxy-new" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cxy-web" type="462c0819:PsiDirectoryNode" />
-              <item name="cxy-index" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cxy-new" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cxy-web" type="462c0819:PsiDirectoryNode" />
-              <item name="cxy-search" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cxy-new" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cxy-web" type="462c0819:PsiDirectoryNode" />
-              <item name="cxy-search" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cxy-new" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cxy-web" type="462c0819:PsiDirectoryNode" />
-              <item name="cxy-search" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cxy-new" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cxy-web" type="462c0819:PsiDirectoryNode" />
-              <item name="cxy-search" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cxy-new" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cxy-web" type="462c0819:PsiDirectoryNode" />
-              <item name="cxy-search" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cxy-new" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cxy-web" type="462c0819:PsiDirectoryNode" />
-              <item name="cxy-search" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cxy-new" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cxy-web" type="462c0819:PsiDirectoryNode" />
-              <item name="cxy-search" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cxy-new" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cxy-web" type="462c0819:PsiDirectoryNode" />
-              <item name="cxy-search" type="462c0819:PsiDirectoryNode" />
+              <item name="cxy-register" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="cxy-new" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cxy-web" type="462c0819:PsiDirectoryNode" />
-              <item name="cxy-search" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cxy-new" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cxy-web" type="462c0819:PsiDirectoryNode" />
-              <item name="cxy-search" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cxy-new" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cxy-web" type="462c0819:PsiDirectoryNode" />
-              <item name="cxy-search" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cxy-new" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cxy-web" type="462c0819:PsiDirectoryNode" />
-              <item name="cxy-search" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cxy-new" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cxy-web" type="462c0819:PsiDirectoryNode" />
-              <item name="cxy-search" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.7" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/cxy-web/cxy-search" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.cxy.background.entity" />
       <recent name="com.cxy.background.utils" />
       <recent name="utils" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\cxy\github\cxy-new\cxy-new\cxy-new\cxy-web\cxy-search\src\main\webapp" />
-      <recent name="D:\cxy\github\cxy-new\cxy-new\cxy-new\cxy-web\cxy-search\src\main\resources" />
-      <recent name="D:\cxy\IdeaWorkSpace\cxy-new\cxy-web\cxy-background\src\main\webapp\js\bootstrap" />
-      <recent name="D:\cxy\IdeaWorkSpace\cxy-new\cxy-web\cxy-background\src\main\webapp\js" />
-      <recent name="D:\cxy\IdeaWorkSpace\cxy-new\cxy-web\cxy-background\src\main\webapp\js\uploadify" />
+      <recent name="D:\cxy\github\cxy-new\cxy-new\cxy-new\cxy-basic\cxy-entity\src\main\java\com\cxy\background\entity" />
+      <recent name="D:\cxy\github\cxy-new\cxy-new\cxy-new\cxy-basic\cxy-mapper\src\main\java\com\cxy\background\mapper" />
+      <recent name="D:\cxy\github\cxy-new\cxy-new\cxy-new\cxy-web\cxy-eamil\src\main\resources" />
+      <recent name="D:\cxy\github\cxy-new\cxy-new\cxy-new\cxy-basic\cxy-sms\src\main\java\com\cxy\sms" />
+      <recent name="D:\cxy\github\cxy-new\cxy-new\cxy-new\cxy-web\cxy-register\src\main\webapp" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -762,7 +692,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Maven.后台管理系统">
+  <component name="RunManager" selected="Maven.注册">
     <configuration name="后台管理系统" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -782,6 +712,190 @@
             </option>
             <option name="resolveToWorkspace" value="false" />
             <option name="workingDirPath" value="$PROJECT_DIR$/cxy-web/cxy-background" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+    </configuration>
+    <configuration name="搜索" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/cxy-web/cxy-search" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+    </configuration>
+    <configuration name="首页" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/cxy-web/cxy-index" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+    </configuration>
+    <configuration name="首页" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/cxy-web/cxy-index" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+    </configuration>
+    <configuration name="搜索" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/cxy-web/cxy-search" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+    </configuration>
+    <configuration name="详情" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/cxy-web/cxy-item" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+    </configuration>
+    <configuration name="注册" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/cxy-web/cxy-register" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+    </configuration>
+    <configuration name="搜索" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/cxy-web/cxy-search" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+    </configuration>
+    <configuration name="商品详情页" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/cxy-web/cxy-item" />
           </MavenRunnerParameters>
         </option>
       </MavenSettings>
@@ -874,6 +988,98 @@
             </option>
             <option name="resolveToWorkspace" value="false" />
             <option name="workingDirPath" value="$PROJECT_DIR$/cxy-web/cxy-index" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+    </configuration>
+    <configuration name="搜索" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/cxy-web/cxy-search" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+    </configuration>
+    <configuration name="首页" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/cxy-web/cxy-index" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+    </configuration>
+    <configuration name="注册" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/cxy-web/cxy-register" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+    </configuration>
+    <configuration name="邮件" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/cxy-web/cxy-eamil" />
           </MavenRunnerParameters>
         </option>
       </MavenSettings>
@@ -981,6 +1187,25 @@
       <envs />
       <patterns />
     </configuration>
+    <configuration name="MyFreemarker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.cxy.freemarker.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.cxy.freemarker.controller.MyFreemarker" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="cxy-freemarker" />
+      <envs />
+    </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -1074,21 +1299,24 @@
       <properties />
       <listeners />
     </configuration>
-    <list size="7">
-      <item index="0" class="java.lang.String" itemvalue="Maven.首页" />
-      <item index="1" class="java.lang.String" itemvalue="Maven.搜索" />
-      <item index="2" class="java.lang.String" itemvalue="Maven.后台管理系统" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.FastDFSUtilTest.upload" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.FastDFSUtilTest" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.FastDFSUtilTest.test1" />
-      <item index="6" class="java.lang.String" itemvalue="JUnit.FastDFSUtilTest.upload1" />
+    <list size="9">
+      <item index="0" class="java.lang.String" itemvalue="Maven.后台管理系统" />
+      <item index="1" class="java.lang.String" itemvalue="Maven.注册" />
+      <item index="2" class="java.lang.String" itemvalue="Maven.邮件" />
+      <item index="3" class="java.lang.String" itemvalue="Maven.搜索" />
+      <item index="4" class="java.lang.String" itemvalue="Application.MyFreemarker" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.FastDFSUtilTest.upload" />
+      <item index="6" class="java.lang.String" itemvalue="JUnit.FastDFSUtilTest" />
+      <item index="7" class="java.lang.String" itemvalue="JUnit.FastDFSUtilTest.test1" />
+      <item index="8" class="java.lang.String" itemvalue="JUnit.FastDFSUtilTest.upload1" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.FastDFSUtilTest.upload1" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.FastDFSUtilTest.test1" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.FastDFSUtilTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.FastDFSUtilTest.upload" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.MyFreemarker" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.FastDFSUtilTest.upload1" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.FastDFSUtilTest.test1" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.FastDFSUtilTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.FastDFSUtilTest.upload" />
       </list>
     </recent_temporary>
   </component>
@@ -1111,7 +1339,11 @@
       <workItem from="1523493481558" duration="21780000" />
       <workItem from="1523580415850" duration="6123000" />
       <workItem from="1523608681057" duration="5998000" />
-      <workItem from="1523666756931" duration="13634000" />
+      <workItem from="1523666756931" duration="14856000" />
+      <workItem from="1523840238341" duration="12599000" />
+      <workItem from="1523925890237" duration="19960000" />
+      <workItem from="1524011880972" duration="16281000" />
+      <workItem from="1524098500804" duration="16173000" />
     </task>
     <servers />
   </component>
@@ -1130,34 +1362,44 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97357000" />
+    <option name="totallyTimeSpent" value="163592000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938388" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938388" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2914692" sideWeight="0.5048544" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13187702" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2914692" sideWeight="0.49514562" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35436893" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2914692" sideWeight="0.49514562" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938388" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938388" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28883496" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29045308" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938388" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3992891" sideWeight="0.49676377" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3992891" sideWeight="0.49676377" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1165,37 +1407,38 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938388" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938388" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2914692" sideWeight="0.5048544" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35436893" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3992891" sideWeight="0.49676377" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938388" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938388" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938388" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2914692" sideWeight="0.49514562" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938388" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938388" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3592233" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938388" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
   </component>
@@ -1222,303 +1465,150 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cxy-web/cxy-background/src/main/java/com/cxy/background/vo/ProductVo.java" />
-    <entry file="file://$PROJECT_DIR$/cxy-basic/cxy-entity/src/main/java/com/cxy/background/entity/ProductVo.java">
+    <entry file="file://$PROJECT_DIR$/cxy-basic/cxy-sms/src/main/java/com/cxy/sms/Config.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state relative-caret-position="176">
+          <caret line="8" column="14" lean-forward="false" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cxy-web/cxy-background/src/main/webapp/addProduct.jsp">
+    <entry file="file://$PROJECT_DIR$/cxy-basic/cxy-sms/src/main/java/com/cxy/sms/HttpUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Tool/JAVA/JDK/src.zip!/java/lang/StringBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="130" column="25" lean-forward="false" selection-start-line="130" selection-start-column="25" selection-end-line="130" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cxy-basic/cxy-sms/src/main/java/com/cxy/sms/response.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Tool/JAVA/JDK/src.zip!/java/util/Random.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="237" column="15" lean-forward="false" selection-start-line="237" selection-start-column="15" selection-end-line="237" selection-end-column="22" />
+          <folding>
+            <element signature="e#8733#8734#0" expanded="false" />
+            <element signature="e#8764#8765#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cxy-web/cxy-register/src/main/resources/mybatis/sqlMapConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cxy-web/cxy-register/src/main/resources/properties/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cxy-web/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
-          <caret line="21" column="6" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/Tool/JAVA/JDK/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15356">
-          <caret line="755" column="24" lean-forward="false" selection-start-line="755" selection-start-column="24" selection-end-line="755" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cxy-basic/cxy-mapper/src/main/java/com/cxy/background/mapper/ProductDescMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6732">
-          <caret line="306" column="9" lean-forward="false" selection-start-line="306" selection-start-column="9" selection-end-line="306" selection-end-column="9" />
-          <folding>
-            <marker date="1523530222989" expanded="true" signature="5280:5435" ph="select , fro... " />
-            <marker date="1523530222989" expanded="true" signature="5652:5714" ph="delete from " />
-            <marker date="1523530222989" expanded="true" signature="5955:5979" ph="delete from " />
-            <marker date="1523530222989" expanded="true" signature="6297:6470" ph="insert into product_desc... " />
-            <marker date="1523530222989" expanded="true" signature="7592:7625" ph="select count... product_desc" />
-            <marker date="1523530222989" expanded="true" signature="8613:8797" ph="update produ... " />
-            <marker date="1523530222989" expanded="true" signature="9100:9219" ph="update produ... " />
-            <marker date="1523530222989" expanded="true" signature="9568:9859" ph="update produ... " />
-            <marker date="1523530222989" expanded="true" signature="10105:10271" ph="update produ... " />
-            <marker date="1523530222989" expanded="true" signature="10508:10616" ph="update produ... " />
-            <marker date="1523530222989" expanded="true" signature="10720:10929" ph="update produ... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cxy-web/cxy-background/src/main/webapp/updateProduct.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1716">
-          <caret line="78" column="19" lean-forward="false" selection-start-line="78" selection-start-column="19" selection-end-line="78" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cxy-basic/cxy-mapper/src/main/java/com/cxy/background/mapper/ProductDescMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="122" column="25" lean-forward="false" selection-start-line="122" selection-start-column="25" selection-end-line="122" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cxy-web/cxy-background/src/main/java/com/cxy/background/service/IProductService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cxy-web/cxy-background/src/main/java/com/cxy/background/service/impl/ProductServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1518">
-          <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cxy-web/cxy-index/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="36" column="25" lean-forward="false" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cxy-web/cxy-index/src/main/webapp/js/topNav.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="17" lean-forward="false" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cxy-web/cxy-index/src/main/webapp/js/jquery.goodnums.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cxy-web/cxy-index/src/main/webapp/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1078">
-          <caret line="49" column="79" lean-forward="false" selection-start-line="49" selection-start-column="79" selection-end-line="49" selection-end-column="79" />
-          <folding>
-            <marker date="1523589842107" expanded="true" signature="1134:1138" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cxy-web/cxy-index/src/main/webapp/test.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cxy-web/cxy-index/src/main/webapp/test1.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3278">
-          <caret line="149" column="15" lean-forward="false" selection-start-line="149" selection-start-column="15" selection-end-line="149" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cxy-web/cxy-background/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="64" column="25" lean-forward="false" selection-start-line="64" selection-start-column="25" selection-end-line="64" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cxy-basic/cxy-common/src/main/java/com/cxy/common/utils/FastDFSUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
           <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cxy-web/cxy-background/src/main/resources/spring/applicationContext-dao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="12" column="25" lean-forward="false" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cxy-web/cxy-background/src/main/resources/mybatis/sqlMapConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="16" lean-forward="false" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cxy-web/cxy-search/src/main/resources/spring/applicationContext-dao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="20" column="44" lean-forward="false" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cxy-web/cxy-search/src/main/resources/spring/applicationContext-tx.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="16" column="11" lean-forward="false" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cxy-web/cxy-search/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="10" lean-forward="false" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cxy-basic/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="26" lean-forward="false" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cxy-basic/cxy-parent/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3850">
-          <caret line="175" column="25" lean-forward="false" selection-start-line="170" selection-start-column="12" selection-end-line="175" selection-end-column="25" />
-          <folding>
-            <marker date="1523617931037" expanded="true" signature="7874:7918" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cxy-web/cxy-search/src/test/java/SorljTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/solr/solr-solrj/4.10.4/solr-solrj-4.10.4.jar!/org/apache/solr/client/solrj/SolrServer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="27" column="27" lean-forward="false" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/solr/solr-solrj/4.10.4/solr-solrj-4.10.4.jar!/org/apache/solr/client/solrj/impl/HttpSolrServer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="67" column="23" lean-forward="false" selection-start-line="67" selection-start-column="23" selection-end-line="67" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cxy-web/cxy-background/src/main/java/com/cxy/background/controller/ProductController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="46" column="5" lean-forward="false" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cxy-basic/cxy-common/src/main/java/com/cxy/common/pojo/State.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="39" lean-forward="false" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cxy-web/cxy-search/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="114" column="12" lean-forward="true" selection-start-line="114" selection-start-column="12" selection-end-line="114" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cxy-web/cxy-search/src/main/resources/spring/applicationContext-solr.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cxy-basic/cxy-common/src/main/java/com/cxy/common/utils/HttpClientUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="172" column="5" lean-forward="false" selection-start-line="172" selection-start-column="5" selection-end-line="172" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cxy-web/cxy-background/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="509">
-          <caret line="43" column="36" lean-forward="false" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cxy-web/cxy-background/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="103" column="21" lean-forward="false" selection-start-line="103" selection-start-column="21" selection-end-line="103" selection-end-column="21" />
+        <state relative-caret-position="-1515">
+          <caret line="20" column="29" lean-forward="false" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cxy-web/cxy-index/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="74" column="10" lean-forward="false" selection-start-line="74" selection-start-column="10" selection-end-line="74" selection-end-column="10" />
+        <state relative-caret-position="-569">
+          <caret line="16" column="29" lean-forward="false" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cxy-web/cxy-index/src/main/java/com/cxy/index/controller/IndexController.java">
+    <entry file="file://$PROJECT_DIR$/cxy-web/cxy-register/src/main/resources/spring/applicationContext-dao.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        <state relative-caret-position="401">
+          <caret line="31" column="18" lean-forward="true" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cxy-web/cxy-search/src/main/webapp/css/base.css">
+    <entry file="file://$PROJECT_DIR$/cxy-web/cxy-index/src/main/webapp/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="33" lean-forward="false" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+          <folding>
+            <marker date="1523864722191" expanded="true" signature="611:615" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cxy-web/cxy-register/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="38" column="30" lean-forward="false" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cxy-web/cxy-background/src/main/java/com/cxy/background/controller/ImageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="17" column="11" lean-forward="false" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cxy-web/cxy-register/src/main/resources/spring/applicationContext-service.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cxy-web/cxy-register/src/main/resources/spring/applicationContext-tx.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="17" column="22" lean-forward="false" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cxy-web/cxy-register/src/main/resources/spring/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cxy-basic/cxy-sms/cxy-sms.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1526,157 +1616,318 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cxy-web/cxy-index/src/main/resources/spring/springmvc.xml">
+    <entry file="file://$PROJECT_DIR$/cxy-basic/cxy-sms/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="25" column="4" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="62" />
+        <state relative-caret-position="479">
+          <caret line="23" column="21" lean-forward="false" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cxy-web/cxy-search/src/main/resources/spring/springmvc.xml">
+    <entry file="file://$PROJECT_DIR$/cxy-basic/cxy-sms/src/main/java/com/cxy/sms/SMSUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="28" column="8" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/solr/solr-solrj/4.10.4/solr-solrj-4.10.4.jar!/org/apache/solr/client/solrj/SolrQuery.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="23" column="11" lean-forward="false" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cxy-web/cxy-background/src/main/webapp/productList.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-591">
-          <caret line="94" column="22" lean-forward="false" selection-start-line="94" selection-start-column="22" selection-end-line="94" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cxy-web/cxy-search/src/main/resources/spring/applicationContext-service.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="64" lean-forward="false" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cxy-basic/cxy-mapper/src/main/java/com/cxy/background/mapper/ProductMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="94" column="25" lean-forward="false" selection-start-line="94" selection-start-column="25" selection-end-line="94" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cxy-basic/cxy-mapper/src/main/java/com/cxy/background/mapper/ProductMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="347" column="11" lean-forward="true" selection-start-line="347" selection-start-column="11" selection-end-line="347" selection-end-column="11" />
+        <state relative-caret-position="303">
+          <caret line="27" column="26" lean-forward="false" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
           <folding>
-            <marker date="1523677396826" expanded="true" signature="4804:4907" ph="select from product" />
-            <marker date="1523677396826" expanded="true" signature="5124:5181" ph="delete from " />
-            <marker date="1523677396826" expanded="true" signature="5418:5437" ph="delete from " />
-            <marker date="1523677396826" expanded="true" signature="5751:6106" ph="insert into product... " />
-            <marker date="1523677396826" expanded="true" signature="9101:9523" ph="update produ... " />
-            <marker date="1523677396826" expanded="true" signature="9868:10602" ph="update produ... " />
-            <marker date="1523677396826" expanded="true" signature="10835:11204" ph="update produ... " />
-            <marker date="1523677396826" expanded="true" signature="11286:11477" ph="SELECT p.*, product" />
-            <marker date="1523677396826" expanded="true" signature="11582:12357" ph="update produ... " />
-            <marker date="1523677396826" expanded="true" signature="12422:12466" ph="select count... product" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cxy-web/cxy-search/src/main/java/com/cxy/search/pojo/PageInfo.java">
+    <entry file="file://$PROJECT_DIR$/cxy-basic/cxy-sms/src/main/java/com/cxy/sms/response/SMSResonse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="9" column="24" lean-forward="false" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        <state relative-caret-position="413">
+          <caret line="75" column="0" lean-forward="true" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
           <folding>
-            <element signature="e#384#385#0" expanded="true" />
-            <element signature="e#414#415#0" expanded="true" />
-            <element signature="e#456#457#0" expanded="true" />
-            <element signature="e#494#495#0" expanded="true" />
-            <element signature="e#525#526#0" expanded="true" />
-            <element signature="e#556#557#0" expanded="true" />
-            <element signature="e#600#601#0" expanded="true" />
-            <element signature="e#640#641#0" expanded="true" />
-            <element signature="e#669#670#0" expanded="true" />
-            <element signature="e#697#698#0" expanded="true" />
-            <element signature="e#913#914#0" expanded="true" />
-            <element signature="e#941#942#0" expanded="true" />
-            <element signature="e#979#980#0" expanded="true" />
-            <element signature="e#1013#1014#0" expanded="true" />
-            <element signature="e#1044#1045#0" expanded="true" />
-            <element signature="e#1071#1072#0" expanded="true" />
-            <element signature="e#1111#1112#0" expanded="true" />
-            <element signature="e#1143#1144#0" expanded="true" />
-            <element signature="e#1179#1180#0" expanded="true" />
-            <element signature="e#1215#1216#0" expanded="true" />
-            <element signature="e#1414#1415#0" expanded="true" />
-            <element signature="e#1453#1454#0" expanded="true" />
-            <element signature="e#1515#1516#0" expanded="true" />
-            <element signature="e#1571#1572#0" expanded="true" />
+            <element signature="e#364#365#0" expanded="true" />
+            <element signature="e#392#393#0" expanded="true" />
+            <element signature="e#434#435#0" expanded="true" />
+            <element signature="e#468#469#0" expanded="true" />
+            <element signature="e#531#532#0" expanded="true" />
+            <element signature="e#562#563#0" expanded="true" />
+            <element signature="e#610#611#0" expanded="true" />
+            <element signature="e#650#651#0" expanded="true" />
+            <element signature="e#685#686#0" expanded="true" />
+            <element signature="e#716#717#0" expanded="true" />
+            <element signature="e#764#765#0" expanded="true" />
+            <element signature="e#804#805#0" expanded="true" />
+            <element signature="e#841#842#0" expanded="true" />
+            <element signature="e#873#874#0" expanded="true" />
+            <element signature="e#924#925#0" expanded="true" />
+            <element signature="e#966#967#0" expanded="true" />
+            <element signature="e#1007#1008#0" expanded="true" />
+            <element signature="e#1038#1039#0" expanded="true" />
+            <element signature="e#1092#1093#0" expanded="true" />
+            <element signature="e#1132#1133#0" expanded="true" />
+            <element signature="e#1164#1165#0" expanded="true" />
+            <element signature="e#1192#1193#0" expanded="true" />
+            <element signature="e#1234#1235#0" expanded="true" />
+            <element signature="e#1268#1269#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cxy-web/cxy-search/src/main/java/com/cxy/search/service/ISearcheService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/solr/solr-solrj/4.10.4/solr-solrj-4.10.4.jar!/org/apache/solr/client/solrj/response/QueryResponse.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="25" column="45" lean-forward="true" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cxy-web/cxy-search/src/main/java/com/cxy/search/controller/SearchController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cxy-web/cxy-search/src/main/java/com/cxy/search/service/impl/SearchServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="107" column="29" lean-forward="false" selection-start-line="107" selection-start-column="29" selection-end-line="107" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cxy-web/cxy-search/src/main/webapp/searchList.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="121" column="18" lean-forward="true" selection-start-line="121" selection-start-column="18" selection-end-line="121" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cxy-web/cxy-index/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="38" column="25" lean-forward="true" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
+        <state relative-caret-position="-242">
+          <caret line="16" column="37" lean-forward="false" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cxy-web/cxy-register/src/main/webapp/register.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="103" column="4" lean-forward="false" selection-start-line="103" selection-start-column="4" selection-end-line="103" selection-end-column="4" />
+          <folding>
+            <marker date="1524130226998" expanded="false" signature="2233:2244" ph="..." />
+            <marker date="1524130226998" expanded="false" signature="2306:2333" ph="..." />
+            <marker date="1524130226998" expanded="false" signature="2355:2366" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cxy-web/cxy-register/src/main/resources/spring/applicationContext-rabbitmq.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="8" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cxy-web/cxy-eamil/src/main/resources/spring/applicationContext-tx.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="23" lean-forward="false" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cxy-web/cxy-eamil/src/main/resources/spring/applicationContext-service.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cxy-basic/cxy-parent/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="235" column="25" lean-forward="true" selection-start-line="231" selection-start-column="12" selection-end-line="235" selection-end-column="25" />
+          <folding>
+            <marker date="1524124741009" expanded="true" signature="8563:8607" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cxy-web/cxy-item/src/main/resources/spring/applicationContext-service.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="54" lean-forward="false" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cxy-web/cxy-eamil/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="56" lean-forward="false" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cxy-web/cxy-eamil/src/main/java/com/cxy/email/controller/EmailController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="10" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cxy-web/cxy-item/src/main/resources/spring/applicationContext-rabbitmq.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="21" lean-forward="false" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cxy-web/cxy-eamil/target/classes/spring/applicationContext-rabbitmq.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cxy-web/cxy-eamil/src/main/resources/spring/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cxy-web/cxy-register/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-569">
+          <caret line="41" column="29" lean-forward="false" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/4.2.3.RELEASE/spring-security-core-4.2.3.RELEASE.jar!/org/springframework/security/core/userdetails/User.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cxy-web/cxy-item/src/main/java/com/cxy/item/handler/ProductHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cxy-web/cxy-item/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="37" column="21" lean-forward="false" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cxy-web/cxy-eamil/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="34" column="34" lean-forward="false" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cxy-web/cxy-background/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="109" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cxy-web/css-sso/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="36" column="21" lean-forward="true" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cxy-basic/cxy-mapper/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="619">
+          <caret line="52" column="23" lean-forward="false" selection-start-line="52" selection-start-column="23" selection-end-line="52" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cxy-web/cxy-register/src/main/java/com/cxy/register/service/IRegisterService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cxy-basic/cxy-mapper/src/main/java/com/cxy/background/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cxy-basic/cxy-entity/src/main/java/com/cxy/background/entity/UserExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cxy-basic/cxy-entity/src/main/java/com/cxy/background/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="254" column="15" lean-forward="false" selection-start-line="254" selection-start-column="15" selection-end-line="254" selection-end-column="15" />
+          <folding>
+            <element signature="e#6181#6182#0" expanded="true" />
+            <element signature="e#6217#6218#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cxy-web/cxy-eamil/src/main/resources/spring/applicationContext-email.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="34" lean-forward="false" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cxy-web/cxy-eamil/src/main/resources/spring/applicationContext-rabbitmq.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="89" lean-forward="false" selection-start-line="15" selection-start-column="89" selection-end-line="15" selection-end-column="89" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cxy-basic/cxy-mapper/src/main/java/com/cxy/background/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="168" column="34" lean-forward="true" selection-start-line="168" selection-start-column="34" selection-end-line="168" selection-end-column="34" />
+          <folding>
+            <marker date="1524139108530" expanded="true" signature="5006:5106" ph="select from user" />
+            <marker date="1524139108530" expanded="true" signature="5322:5376" ph="delete from " />
+            <marker date="1524139108530" expanded="true" signature="5609:5625" ph="delete from " />
+            <marker date="1524139108530" expanded="true" signature="5934:6551" ph="insert into user... " />
+            <marker date="1524139108530" expanded="true" signature="8918:8943" ph="select count... user" />
+            <marker date="1524139108530" expanded="true" signature="11017:11743" ph="update user " />
+            <marker date="1524139108530" expanded="true" signature="12083:13334" ph="update user " />
+            <marker date="1524139108530" expanded="true" signature="13563:14201" ph="update user " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cxy-web/cxy-register/src/main/java/com/cxy/register/service/impl/RegisterServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cxy-web/cxy-register/src/main/java/com/cxy/register/controller/RegisterController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="809">
+          <caret line="87" column="9" lean-forward="true" selection-start-line="87" selection-start-column="9" selection-end-line="87" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cxy-web/cxy-eamil/src/main/java/com/cxy/email/handler/EmailHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1734,7 +1985,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>cxy-background</last-edited>
+          <last-edited>cxy-item</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

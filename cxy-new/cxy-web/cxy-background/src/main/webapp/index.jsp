@@ -42,7 +42,7 @@
 
 <div class="container-fluid">
     <div class="row">
-        <div class="col-sm-3 col-md-2 sidebar">
+        <div class="col-sm-3 col-md-2 sidebar" id="menu">
             <ul class="nav nav-sidebar">
                 <li class="active"><a href="/product/productList/1" target="product-iframe" >商品列表</a></li>
 
@@ -50,7 +50,9 @@
 
         </div>
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-            <iframe id="iframe-content" name="product-iframe" frameborder="0" scrolling="no" class="col-sm-12" ></iframe>
+            <iframe id="iframe-content" name="product-iframe" frameborder="0" scrolling="no">
+
+            </iframe>
         </div>
     </div>
 </div>
@@ -60,9 +62,11 @@
 <script type="text/javascript">
     $(function () {
         $("#iframe-content").load(function(){
-            var mainheight = $(this).contents().find("body").height()+30;
-            $(this).height(mainheight);
-            alert($(this).height());
+            //var mainheight = $(this).contents().find("body").height()+30;
+            //$(this).height(mainheight);
+            //$(this).height($(window).height());
+            $(this).height($(window).height());
+            $(this).width(($(window).width()*5)/6);
         });
     })
 </script>

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="cxy-freemarker:war">
+    <output-path>$PROJECT_DIR$/cxy-other/cxy-freemarker/target</output-path>
+    <root id="archive" name="cxy-freemarker-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="cxy-freemarker:war exploded" />
+    </root>
+  </artifact>
+</component>

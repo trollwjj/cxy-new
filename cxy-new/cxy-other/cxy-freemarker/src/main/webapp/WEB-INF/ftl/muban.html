@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Insert title here</title>
+</head>
+<body>
+hello,${name}
+学生对象:
+    姓名:${student.name}
+    年龄:${student.age}
+<#if student.age < 20 >
+    年轻真好
+    <#else>
+        真的好啊
+</#if>
+
+    Map集合:
+        key1:${map.key1}
+        key2:${map.key2}
+    list集合遍历:
+        <#list nums as num>
+            index:${num_index}
+            value:${num}
+        </#list>
+
+    日期:
+        ${date?string("yyyy:MM:dd hh-mm-ss")}
+        ${date?date}
+        ${date?datetime}
+        ${date?time}
+
+</body>
+</html>

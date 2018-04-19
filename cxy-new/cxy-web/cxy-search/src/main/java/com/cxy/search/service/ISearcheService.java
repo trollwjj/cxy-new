@@ -10,4 +10,8 @@ public interface ISearcheService {
     List<Product> search(Integer pageIndex, String searchString);
 
     Integer getTotalCount(String searchString);
+
+    void updateByJson(String json);
+
+    void deleteById(Integer id);
 }

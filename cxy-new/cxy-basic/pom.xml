@@ -13,6 +13,7 @@
         <module>cxy-common</module>
         <module>cxy-mapper</module>
         <module>cxy-entity</module>
+        <module>cxy-sms</module>
     </modules>
 
 

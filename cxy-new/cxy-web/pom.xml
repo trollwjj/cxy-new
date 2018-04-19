@@ -12,6 +12,10 @@
         <module>cxy-background</module>
         <module>cxy-index</module>
         <module>cxy-search</module>
+        <module>cxy-item</module>
+        <module>cxy-eamil</module>
+        <module>css-sso</module>
+        <module>cxy-register</module>
     </modules>
 
 

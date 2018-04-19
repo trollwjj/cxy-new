@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/cxy-other/cxy-freemarker" />
+    <file type="web" url="file://$PROJECT_DIR$/cxy-web/css-sso" />
     <file type="web" url="file://$PROJECT_DIR$/cxy-web/cxy-background" />
+    <file type="web" url="file://$PROJECT_DIR$/cxy-web/cxy-eamil" />
     <file type="web" url="file://$PROJECT_DIR$/cxy-web/cxy-index" />
+    <file type="web" url="file://$PROJECT_DIR$/cxy-web/cxy-item" />
+    <file type="web" url="file://$PROJECT_DIR$/cxy-web/cxy-register" />
     <file type="web" url="file://$PROJECT_DIR$/cxy-web/cxy-search" />
   </component>
   <component name="MavenProjectsManager">

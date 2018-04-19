@@ -110,7 +110,6 @@
 
         <!-- 添加商品事件 -->
         $("#btn-add-product").click(function () {
-            debugger
             var formValue = $("form").serialize();
             $.ajax({
                 url:"/product/addProduct",

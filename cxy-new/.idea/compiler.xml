@@ -6,25 +6,36 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="css-sso" />
         <module name="cxy-background" />
         <module name="cxy-common" />
+        <module name="cxy-eamil" />
         <module name="cxy-entity" />
+        <module name="cxy-freemarker" />
         <module name="cxy-index" />
+        <module name="cxy-item" />
         <module name="cxy-mapper" />
-        <module name="cxy-other" />
+        <module name="cxy-register" />
         <module name="cxy-search" />
+        <module name="cxy-sms" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="css-sso" target="1.7" />
       <module name="cxy-background" target="1.7" />
       <module name="cxy-basic" target="1.5" />
       <module name="cxy-common" target="1.7" />
+      <module name="cxy-eamil" target="1.7" />
       <module name="cxy-entity" target="1.7" />
+      <module name="cxy-freemarker" target="1.7" />
       <module name="cxy-index" target="1.7" />
+      <module name="cxy-item" target="1.7" />
       <module name="cxy-mapper" target="1.7" />
       <module name="cxy-other" target="1.5" />
       <module name="cxy-parent" target="1.5" />
+      <module name="cxy-register" target="1.7" />
       <module name="cxy-search" target="1.7" />
+      <module name="cxy-sms" target="1.7" />
       <module name="cxy-web" target="1.5" />
       <module name="cxybasic" target="1.5" />
     </bytecodeTargetLevel>

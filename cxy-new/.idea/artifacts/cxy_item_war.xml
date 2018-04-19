@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="cxy-item:war">
+    <output-path>$PROJECT_DIR$/cxy-web/cxy-item/target</output-path>
+    <root id="archive" name="cxy-item-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="cxy-item:war exploded" />
+    </root>
+  </artifact>
+</component>

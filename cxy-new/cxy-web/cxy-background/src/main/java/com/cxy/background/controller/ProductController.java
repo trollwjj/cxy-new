@@ -3,8 +3,11 @@ package com.cxy.background.controller;
 import com.cxy.background.entity.Product;
 import com.cxy.background.entity.ProductVo;
 import com.cxy.background.service.IProductService;
+import com.cxy.common.utils.HttpClientUtils;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
+import com.google.gson.Gson;
+import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -23,6 +26,8 @@ public class ProductController {
     @Autowired
     private IProductService productService;
 
+    @Autowired
+    private RabbitTemplate rabbitTemplate;
 
     @ResponseBody
     @RequestMapping("addProduct")
@@ -30,9 +35,16 @@ public class ProductController {
 
         int result = productService.uploadProduct(productVo);
 
+        Gson gson = new Gson();
+        String json = gson.toJson(productVo.getProduct());
+//        HttpClientUtils.doPostJson("http://localhost:8082/search/updateByJson", json);
+//        HttpClientUtils.doPostJson("http://localhost:8083/item/createDetailPage", json);
+
         if (result > 0){
+            rabbitTemplate.convertAndSend("product.add", json);
             return  "true";
         }
+
         return "false";
     }
 
@@ -77,6 +89,8 @@ public class ProductController {
     public String deleteProduct(@PathVariable Integer productId){
         int result = productService.deleteProductById(productId);
         if (result > 0){
+            rabbitTemplate.convertAndSend("product.del", productId);
+
             return "true";
         }
         return "false";
@@ -91,13 +105,10 @@ public class ProductController {
             ids.add(Integer.parseInt(s));
         }
         int result = productService.deleteProductsByIds(ids);
-        System.out.println("================"+result);
 
         if (result > 0){
             return "true";
         }
         return "false";
     }
-
-
 }

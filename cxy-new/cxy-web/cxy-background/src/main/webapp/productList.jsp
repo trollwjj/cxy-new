@@ -20,7 +20,7 @@
 </head>
 <body>
 <div class="row">
-    <div class="col-md-offset-8">
+    <div class="col-md-offset-10">
         <button class="btn btn-primary" id="btn-add-show-model">添加</button>
         <button class="btn btn-danger" id="btn-delete-all">删除</button>
     </div>

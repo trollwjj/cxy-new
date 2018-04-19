@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="cxy-eamil:war">
+    <output-path>$PROJECT_DIR$/cxy-web/cxy-eamil/target</output-path>
+    <root id="archive" name="cxy-email-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="cxy-eamil:war exploded" />
+    </root>
+  </artifact>
+</component>

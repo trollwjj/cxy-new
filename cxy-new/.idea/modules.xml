@@ -2,15 +2,21 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/cxy-web/css-sso/css-sso.iml" filepath="$PROJECT_DIR$/cxy-web/css-sso/css-sso.iml" />
       <module fileurl="file://$PROJECT_DIR$/cxy-web/cxy-background/cxy-background.iml" filepath="$PROJECT_DIR$/cxy-web/cxy-background/cxy-background.iml" />
       <module fileurl="file://$PROJECT_DIR$/cxy-basic/cxy-basic.iml" filepath="$PROJECT_DIR$/cxy-basic/cxy-basic.iml" />
       <module fileurl="file://$PROJECT_DIR$/cxy-basic/cxy-common/cxy-common.iml" filepath="$PROJECT_DIR$/cxy-basic/cxy-common/cxy-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cxy-web/cxy-eamil/cxy-eamil.iml" filepath="$PROJECT_DIR$/cxy-web/cxy-eamil/cxy-eamil.iml" />
       <module fileurl="file://$PROJECT_DIR$/cxy-basic/cxy-entity/cxy-entity.iml" filepath="$PROJECT_DIR$/cxy-basic/cxy-entity/cxy-entity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cxy-other/cxy-freemarker/cxy-freemarker.iml" filepath="$PROJECT_DIR$/cxy-other/cxy-freemarker/cxy-freemarker.iml" />
       <module fileurl="file://$PROJECT_DIR$/cxy-web/cxy-index/cxy-index.iml" filepath="$PROJECT_DIR$/cxy-web/cxy-index/cxy-index.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cxy-web/cxy-item/cxy-item.iml" filepath="$PROJECT_DIR$/cxy-web/cxy-item/cxy-item.iml" />
       <module fileurl="file://$PROJECT_DIR$/cxy-basic/cxy-mapper/cxy-mapper.iml" filepath="$PROJECT_DIR$/cxy-basic/cxy-mapper/cxy-mapper.iml" />
       <module fileurl="file://$PROJECT_DIR$/cxy-other/cxy-other.iml" filepath="$PROJECT_DIR$/cxy-other/cxy-other.iml" />
       <module fileurl="file://$PROJECT_DIR$/cxy-basic/cxy-parent/cxy-parent.iml" filepath="$PROJECT_DIR$/cxy-basic/cxy-parent/cxy-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cxy-web/cxy-register/cxy-register.iml" filepath="$PROJECT_DIR$/cxy-web/cxy-register/cxy-register.iml" />
       <module fileurl="file://$PROJECT_DIR$/cxy-web/cxy-search/cxy-search.iml" filepath="$PROJECT_DIR$/cxy-web/cxy-search/cxy-search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cxy-basic/cxy-sms/cxy-sms.iml" filepath="$PROJECT_DIR$/cxy-basic/cxy-sms/cxy-sms.iml" />
       <module fileurl="file://$PROJECT_DIR$/cxy-web/cxy-web.iml" filepath="$PROJECT_DIR$/cxy-web/cxy-web.iml" />
     </modules>
   </component>
