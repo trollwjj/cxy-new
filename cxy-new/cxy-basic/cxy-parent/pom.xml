@@ -56,7 +56,11 @@
         <!-- commons-codec -->
         <commons-codec.version>1.9</commons-codec.version>
         
+        <!--Spring-data-redis-->
+        <spring-data-redis.version>1.8.8.RELEASE</spring-data-redis.version>
 
+        <!--jedis-->
+        <jedis.version>2.9.0</jedis.version>
 
     </properties>
 
@@ -252,6 +256,19 @@
                 <groupId>commons-codec</groupId>
                 <artifactId>commons-codec</artifactId>
                 <version>${commons-codec.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>redis.clients</groupId>
+                <artifactId>jedis</artifactId>
+                <version>${jedis.version}</version>
+            </dependency>
+
+            <!--spring-data-redis-->
+            <dependency>
+                <groupId>org.springframework.data</groupId>
+                <artifactId>spring-data-redis</artifactId>
+                <version>${spring-data-redis.version}</version>
             </dependency>
 
         </dependencies>
